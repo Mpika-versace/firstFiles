@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <h1>CSS Transition</h1>
+    </header>
+    <main>
+        <div class="container">
+            <section class="hero">
+                <div class="hero_flex">
+                    <div class="hero_col">
+                        <h3 class="hero_animation">css trasinton</h3>
+                        <button id="color">click me</button>
+
+                        <h2 class="compteur">Un compteur</h2>
+                        <p>Click below to animate</p>
+                        <div class="cover">
+                            <div class="hide">123456789</div>
+                        </div>
+                    </div>
+                    <div class="hero_col">
+                        <h2 class="train">Transition train</h2>
+                        <img class="train" src="https://js.cx/clipart/train.gif" onclick="this.style.left='450px'">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
    <script src="main.js"></script> 
 </body>
 </html>
